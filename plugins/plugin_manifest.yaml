@@ -1,9 +1,5 @@
-name: RequiredHeader
-pluginFileName: RequiredHeader.so
+name: CustomerIOAuth
+pluginFileName: CustomerIOAuth.so
 exportedSymbolName: Plugin
 config:
-  RequiredHeader: my-auth-header
-  AllowedValues:
-  - foo
-  - bar
-  - baz
+  SigningSecret: my-secret

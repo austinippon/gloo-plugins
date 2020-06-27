@@ -3,10 +3,9 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/austinippon/gloo-plugins/pkg/checks"
 	"os"
 	"sort"
-
-	"github.com/solo-io/ext-auth-plugin-examples/pkg/checks"
 )
 
 func main() {
